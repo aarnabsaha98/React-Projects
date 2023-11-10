@@ -1,0 +1,82 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 30%;
+  margin: 15pc auto;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: rgba(13, 211, 135, 0.4);
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.searchbarContent {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+.form-control {
+  width: 70%;
+  display: inline-block;
+}
+
+.clickable-icon {
+  cursor: pointer;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eeeaea;
+  border-radius: 5px;
+  background-color: #1e2f41;
+  /* Light Gray Background */
+}
+
+.task-index {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #007bff;
+  /* Blue Text Color */
+}
+
+.task-text {
+  display: inline-block;
+  color: #28a745;
+  /* Green Text Color */
+}
+/* Optional: Style for the CreateInput component */
+.create-input-container {
+  margin-top: 20px;
+}
+.create-input {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.icon {
+  margin-right: 15px;
+}
